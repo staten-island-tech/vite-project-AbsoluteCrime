@@ -8,3 +8,4 @@ async function newProduct() {
     .insertAdjacentElement(afterbegin, HTMLDivElement)
     .classList.add("card");
 }
+document.getElementById("btn").onclick = newProduct();
