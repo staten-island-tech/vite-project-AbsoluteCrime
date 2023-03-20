@@ -10,12 +10,28 @@
   <body>
     <script type="module" src="./js/main.js"></script>
     <h1>Wonderful Pastries</h1>
-    <div class="menumain">
-      <div class="pastry eclair">
-        <h2>Eclairs</h2>
+    <form action="" class="newCard">
+      <div class="newCard">
+        <label for="newPastry">Add a new product:</label>
+        <input type="text" name="newPastry" id="newPastry" required />
       </div>
-      <div class="pastry cake"></div>
-      <div class="pastry cookie"></div>
+      <div>
+        <input type="button" value="New" id="btn" onclick="newProduct()" />
+      </div>
+    </form>
+    <div class="menumain">
+      <div class="card eclair">
+        <h2>Éclair</h2>
+      </div>
+      <div class="card croissant">
+        <h2>Croissant</h2>
+      </div>
+      <div class="card mooncake">
+        <h2>Mooncake</h2>
+      </div>
+      <div class="card donut">
+        <h2>Donut</h2>
+      </div>
     </div>
   </body>
 </html>

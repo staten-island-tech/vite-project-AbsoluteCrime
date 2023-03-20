@@ -1,18 +1,16 @@
 @import url(variables.css);
 .menumain {
-  font-size: 6em;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  align-items: y
+  align-items: center;
 }
-.pastry {
-  width: 13em;
-  height: 19em;
-  border: 3px solid black;
+.card {
+  width: 40em;
+  height: 24em;
+  border: 0.3rem solid black;
   margin: 4em;
   box-shadow: 0.6em 0.3em 0.3em black;
   font-family: "B612 Mono", monospace;
-  color: greenyellow;
 }
